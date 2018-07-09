@@ -12,6 +12,7 @@
     "precommit": "yoshi lint",
     "pretest": "yoshi build",
     "test": "yoshi test",
+    "lint": "yoshi lint",
     "posttest": "yoshi lint",
     "release": "yoshi release"
   },
