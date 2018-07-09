@@ -3,6 +3,11 @@ import configEmitter from 'wix-config-emitter';
 
 export const app = bootstrapServer();
 
+export const start = function () {
+  beforeEach(() => emitConfigs());
+  app.beforeAndAfterEach();
+};
+
 export function beforeAndAfter() {
   before(() => emitConfigs());
   app.beforeAndAfter();
