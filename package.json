@@ -34,15 +34,17 @@
     "regenerator-runtime": "^0.11.0"
   },
   "devDependencies": {
-    "react-test-renderer": "~15.6.0",
     "chai": "~4.1.0",
     "enzyme": "~2.9.0",
+    "eyes.it": "^2.0.8",
     "husky": "~0.14.0",
     "jsdom": "~11.2.0",
     "jsdom-global": "~3.0.0",
     "puppeteer": "^1.1.0",
+    "react-test-renderer": "~15.6.0",
     "wix-bootstrap-testkit": "latest",
     "wix-config-emitter": "latest",
+    "wix-eyes-env": "^1.0.22",
     "yoshi": "^2.1.2"
   },
   "yoshi": {
