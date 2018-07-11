@@ -8,7 +8,7 @@ describe('React application', () => {
       console.log(process.env.APPLITOOLS_GITHUB_FT);
       console.log('process.env.APPLITOOLS_BATCH_ID');
       console.log(process.env.APPLITOOLS_BATCH_ID);
-      expect($('h2').getText()).toEqual('b6 title');
+      expect($('h2').getText()).toEqual('b7 title');
     });
   });
 });
