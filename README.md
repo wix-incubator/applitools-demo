@@ -13,3 +13,6 @@ If you wat to know why => ask applitools :)
 Open a ticket for CI with the following requirements:
 - pull requests builds
 - github integrations with 'continuous-integration/' preset
+
+### 5. Add environment variables to turn on applitools feature toggle
+[.ci_config](https://ci-kb.wixanswers.com/en/article/ci-config)

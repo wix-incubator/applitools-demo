@@ -1,0 +1,4 @@
+{
+  "pr_env_params" : {"env.APPLITOOLS_GITHUB_FT": "true"},
+  "env_params" : {"env.APPLITOOLS_GITHUB_FT": "true"}
+}
