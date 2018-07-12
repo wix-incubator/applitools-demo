@@ -6,3 +6,5 @@ If you wat to know why => ask applitools :)
 
 ### 2. Add your repository to applitools
 [Instructions](https://docs.google.com/document/d/1YIyLka9BaWvHOCyipFg0YJlijQCf0UA988Z-g4glwtw/edit)
+
+### 3. Add eyes to your repository

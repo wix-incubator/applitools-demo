@@ -1,16 +1,10 @@
-import {expect} from 'chai';
-import {beforeAndAfter, app} from './../environment';
-import './e2e-common';
+import eyes from 'eyes.it';
 
 describe('React application', () => {
-  beforeAndAfter();
-
   describe('open page', () => {
-    it('should display title', async () => {
-      const page = await browser.newPage();
-      await page.goto(app.getUrl('/'));
-      await page.waitForSelector('h2', {timeout: 1000});
-      expect(await page.$eval('h2', e => e.innerText)).to.equal('Hello World!');
+    eyes.it('should display title', async () => {
+      await browser.get('/');
+      expect($('h2').getText()).toEqual('b2 title');
     });
   });
 });
