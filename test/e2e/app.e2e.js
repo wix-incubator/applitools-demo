@@ -9,7 +9,7 @@ describe('React application', () => {
       console.log('process.env.EYES_BATCH_UUID');
       console.log(process.env.EYES_BATCH_UUID);
       await browser.get('/');
-      expect($('h2').getText()).toEqual('Hello branch1!');
+      expect($('h2').getText()).toEqual('Hello b3!');
     });
   });
 });
