@@ -16,3 +16,15 @@ Open a ticket for CI with the following requirements:
 
 ### 5. Add environment variables to turn on applitools feature toggle
 see [.ci_config](https://ci-kb.wixanswers.com/en/article/ci-config)
+
+### 6. Send email to support@applitools.com with the following template:
+> Dear Applitools support.
+
+> I'm working on adding Applitools Github Pull Request integration to a repository that already has baselines.
+I need your assistance to copy my existing baselines so that test that run in CI will be synchronised with Applitools' existing baselines.
+
+> The name of the repository that I’m working on is - <repository_name>, and I need you to copy all the baselines from the “default” branch to the "<repository_name>/master” branch.
+
+> Thanks a lot.
+
+repository_name example: wix-incubator/applitools-demo
