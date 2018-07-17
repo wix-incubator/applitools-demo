@@ -13,3 +13,6 @@ See [Instructions](https://docs.google.com/document/d/1YIyLka9BaWvHOCyipFg0YJlij
 Open a ticket for CI with the following requirements:
 - pull requests builds
 - github integration with 'continuous-integration/' preset (applitools use it)
+
+### 5. Add environment variables to turn on applitools feature toggle
+see [.ci_config](https://ci-kb.wixanswers.com/en/article/ci-config)
